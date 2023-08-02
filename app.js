@@ -81,7 +81,7 @@ app.engine(
 app.use('/user' , userRoute );
 app.use('/admin' , adminRoute );
 
-
+console.log("poda")
 
 // app.get('/' , (req,res) => {
 //     res.render('home');

@@ -21,8 +21,6 @@ app.use(express.urlencoded({extended: false}));
 
 app.use(cors())
 
-entuade
-
 // creating 24 hours from milliseconds
 const oneDay = 1000 * 60 * 60 * 24;
 
